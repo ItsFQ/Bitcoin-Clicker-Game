@@ -1,0 +1,51 @@
+HOW TO USE THE PROGRAM
+------------------------
+• Run the Program
+• Wait for the program to prompt you for your name in the console
+• After entering your name, wait for the JFrame and all its content to load on the page (GUI)
+• Click the coin continuously and gain bitcoin! After a certain threshold of bitcoins are met, an upgrade  is unlocked.
+• Buy upgrades to increase the auto click rate of bitcoin. 
+• Once you are satsfied with how much bitcoin(s) you made, log your wealth!
+
+HOW TO SEE ALL YOUR LOGGED SCORES ON THE GLOBAL LEADERBOARD
+------------------------
+• Go to the console and type the command '!leaderboard'
+• A list of all the player's logged scores will pop up
+
+HOW TO SEE ALL YOUR PREVIOUS INDIVIDUAL LOGS
+------------------------
+• Run/Re-run the Program
+• If you have played before and logged your bitcoins. A list of all your logs should pop up!
+
+NOW, CAN YOU MAKE IT ON THE LEADERBOARD!? WHAT ARE YOU WAITING FOR? PLAY NOW! 🎮
+
+==========================================================
+--COOL FEATURES IMPLEMENTED--
+• A GUI for an immersive gameplay experience rather than just using the console
+• Upgrades in-game to give user's boosts (giving them motivation to play towards something)
+• The ability for user's to see their personal scores
+• For users to see others' scores as well as their rank on the the global leaderboard
+==========================================================
+--JAVA CONCEPTS USED--
+
+• Use of multiple classes (Main.java, Clicker.java, Stats.java)
+
+• Use of an ArrayLists and an ArrayList of Objects (An arrayList of Objects was used for Stats Objects (Line 20 & Line 70))
+
+• Use of File Input when writing player's stats to the scores.csv file (File Input was used when writing player's stats to the csv file (Line 53-56))
+
+• Use of File Output when reading the file(Line 71-94) in order to output (file output was done when finding each players individual stats but also when the global leaderboard is shown)
+
+• Searching is used when searching for player's individual stats (Line 99-106)
+
+• Sorting is used when ranking player's scores by greatest to least and storing it in an ArrayList (Line 76 - 87)
+
+• The use of JavaSwing to create a interactable GUI to improve user experince (learnt out of class - can be found in the Clicker.java class)
+
+Comments have also been placed to further explain the code...
+==========================================================
+--KNOWN BUGS--
+• A previously known bug that did occur was when the counter label and bitcoin label would overlap each other, but this was later fixed by changing the boundaries of the counter label
+
+• Previously to make the log bitcoins and gen upgrade button to work, both actionlistener methods for each button was placed in one class causing errors, but later was solved when seprated into two different classes.
+
